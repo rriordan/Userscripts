@@ -28,13 +28,13 @@
 // @sandbox      JavaScript
 // @run-at       document-end
 // @namespace    https://greasyfork.org/scripts/412245
-// @supportURL   https://github.com/XIU2/UserScript
-// @homepageURL  https://github.com/XIU2/UserScript
+// @supportURL   https://github.com/rriordan/Userscripts
+// @homepageURL  https://github.com/rriordan/Userscripts
 // ==/UserScript==
 
 (function() {
     'use strict';
-    var menu_rawFast = GM_getValue('xiu2_menu_raw_fast'), menu_rawFast_ID, menu_rawDownLink_ID, menu_gitClone_ID, menu_customUrl_ID, menu_feedBack_ID;
+    var menu_rawFast = GM_getValue('rr_menu_raw_fast'), menu_rawFast_ID, menu_rawDownLink_ID, menu_gitClone_ID, menu_customUrl_ID, menu_feedBack_ID;
     const download_url_us = [
         ['https://gh.h233.eu.org/https://github.com', '美国', '[美国 Cloudflare CDN] - 该公益加速源由 [@X.I.U/XIU2] 提供'],
         //['https://gh.api.99988866.xyz/https://github.com', '美国', '[美国 Cloudflare CDN] - 该公益加速源由 [github.com/hunshcn/gh-proxy] 提供'], // 官方演示站用的人太多了
